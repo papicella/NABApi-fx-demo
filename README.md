@@ -13,8 +13,11 @@ demo follow the steps below. To push to Pivotal Cloud Foundry follow the steps f
 $ git clone https://github.com/papicella/NABApi-fx-demo.git
 ```
 
-- Add a file called "nabapikey.properties" to the resource directory with your NAB API Key obtained after registering 
+- Add a file called "**nabapikey.properties**" to the resource directory with your NAB API Key obtained after registering 
 at https://developer.nab.com.au/
+
+Note: If you omit this step you will not be able to run this demo as it's expecting your NAB API KEY for this to work
+in the "./resources" directory with the file name being "**nabapikey.properties**"
 
 ```
 NAB_API_KEY=YOUR-NAB-API-KEY
