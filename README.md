@@ -1,6 +1,6 @@
 <h1> NAB API FX demo for Cloud Foundry </h1>
 
-The following example is using the NAB API from https://developer.nab.com.au/ to consume the FX Rates API. To run this 
+The following example is a Spring Boot Application using the NAB API from https://developer.nab.com.au/ to consume the FX Rates API. To run this 
 demo follow the steps below. To push to Pivotal Cloud Foundry follow the steps further down
 
 ![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/piv-nabapi-1.png)
