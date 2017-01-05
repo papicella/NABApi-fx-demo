@@ -1,0 +1,9 @@
+applications:
+- name: pas-nabapi-fx
+  host: pas-nabapi-fx
+  memory: 512M
+  instances: 1
+  timeout: 180
+  path: ./target/nabapi-fx-demo-0.0.1-SNAPSHOT.jar
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urando
