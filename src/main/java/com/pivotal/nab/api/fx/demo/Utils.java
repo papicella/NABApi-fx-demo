@@ -36,7 +36,7 @@ public class Utils
         Map<String, Object> jsonMap = parser.parseMap(response.getBody());
 
         Map fxRatesMap = (Map) jsonMap.get("fxRatesResponse");
-        List ratesList = (List) fxRatesMap.get("fxRates");
+        List<FxRate> ratesList = (List<FxRate>) fxRatesMap.get("fxRates");
 
 /*        ObjectMapper mapper = new ObjectMapper();
         List<FxRate> rates = mapper.readValue(Arrays.toString(ratesList.toArray()),
