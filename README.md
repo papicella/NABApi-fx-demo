@@ -88,5 +88,7 @@ buildpack: java-buildpack=v3.11-offline-https://github.com/cloudfoundry/java-bui
 #0   running   2017-01-05 02:28:40 PM   106.2%   288.6M of 512M   144.8M of 1G
 ```
 
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/piv-nabapi-2.png)
+
 <hr />
 Pas Apicella [papicella at pivotal.io] is a Senior Platform Architect at Pivotal Australia 
