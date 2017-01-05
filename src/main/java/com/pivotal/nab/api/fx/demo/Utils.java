@@ -15,8 +15,6 @@ import java.util.Map;
 
 public class Utils
 {
-    //private static String NAB_API_KEY = "181e2d8d-4d55-4a41-b2ce-3761455fb1ea";
-
     private static Log logger = LogFactory.getLog(Utils.class);
     private static final JsonParser parser = JsonParserFactory.getJsonParser();
 
@@ -38,10 +36,6 @@ public class Utils
         Map fxRatesMap = (Map) jsonMap.get("fxRatesResponse");
         List<FxRate> ratesList = (List<FxRate>) fxRatesMap.get("fxRates");
 
-/*        ObjectMapper mapper = new ObjectMapper();
-        List<FxRate> rates = mapper.readValue(Arrays.toString(ratesList.toArray()),
-            mapper.getTypeFactory().constructCollectionType(List.class, FxRate.class));
-*/
         return ratesList;
     }
 
