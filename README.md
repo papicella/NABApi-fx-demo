@@ -42,7 +42,7 @@ http://localhost:8080/
 
 <h3> Deploy to Cloud Foundry </h3>
 
-- Edit the supplied "manifest.yml" to create a unique route/name
+- Edit the supplied "**manifest.yml**" to create a unique name/host 
 
 ```
 applications:
@@ -56,7 +56,7 @@ applications:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urando
 ```
 
-- Ensure your logged in and targetted the right ORG/SPACE
+- Ensure your logged in and targeted the right ORG/SPACE
 
 ```
 pasapicella@pas-macbook:~/piv-projects/NABApi-fx-demo$ cf target
