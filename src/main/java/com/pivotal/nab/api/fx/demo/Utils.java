@@ -33,6 +33,8 @@ public class Utils
 
         Map<String, Object> jsonMap = parser.parseMap(response.getBody());
 
+        logger.info(response.getBody());
+
         Map fxRatesMap = (Map) jsonMap.get("fxRatesResponse");
         List<FxRate> ratesList = (List<FxRate>) fxRatesMap.get("fxRates");
 
